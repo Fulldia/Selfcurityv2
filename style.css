@@ -98,7 +98,7 @@ h1{
 
 .Jeu{
 	background-color: #f3f3f3;
-	height: 610em;
+	height: 595em;
 	font-size: 1.1em;
 	font-family: 'Sitka';
 }
@@ -191,6 +191,7 @@ h2{
 #testimg{
 	padding-left: 14.5em;
 	padding-top: 10em;
+	border-color: transparent;
 }
 
 .partenaires{
