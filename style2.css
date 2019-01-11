@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:500');
+
+
+body{
+	background-color: white;
+font-family: 'Rajdhani', sans-serif;
+		padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 5em;
+
+
+
+}
+
+#re{
+	padding-left: left;
+}
+
+#bonre{
+	float: right;
+	background-color: #a2cd5a;
+}
+
+#pb{
+	background-color: ;
+		font-size: : 3em;
+}
+
+h1{
+	text-align: center;
+	padding-top: 5em;
+	font-size: 1.5em;
+}
+
+#imagedenous{
+	padding-left: 20em;
+}
