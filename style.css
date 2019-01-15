@@ -216,9 +216,24 @@ h2{
  	}
 
  	li{
- 	margin-left: 30em;
- 
+ 	margin-left: 0em;
+ 	font-size: 1.8em;
 }
+	#logo{
+	max-width: 15%; 
+	margin-top: 1em;
+	}
+	#backgroundimg{
+	padding-top: 12em;
+	padding-left: 17em;
+	}
+	.Home > h1{
+	padding-left: 8em;
+	}
+	#caca{
+	font-size: 130%;
+	padding-top: 30em;
+	}
 }
 
 
