@@ -1,33 +1,4 @@
-@media (max-width: 1024px){
-	#testimg{
-	margin-left: 1em;
-}
- 
- 	#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8{
- 	padding-top: 20em;
- 	margin-top: 20em;
- 	}
 
- 	li{
- 	margin-left: 0em;
- 	font-size: 1.8em;
-}
-	#logo{
-	max-width: 15%; 
-	margin-top: 1em;
-	}
-	#backgroundimg{
-	padding-top: 12em;
-	padding-left: 17em;
-	}
-	.Home > h1{
-	padding-left: 8em;
-	}
-	#caca{
-	font-size: 130%;
-	padding-top: 30em;
-	}
-}
 @font-face {
 	font-family: "Sitka";
 	src: url('Sitka.ttc');
@@ -335,5 +306,33 @@ input[type=button]:hover{
 	font-family: 'Encode Sans Condensed', sans-serif;
 }
 
+@media (max-width: 1024px){
+	#testimg{
+	margin-left: 1em;
+}
+ 
+ 	#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8{
+ 	padding-top: 1em;
+ 	margin-top: 20em;
+ 	}
 
-
+ 	li{
+ 	margin-left: 0em;
+ 	font-size: 1.8em;
+}
+	#logo{
+	max-width: 15%; 
+	margin-top: 1em;
+	}
+	#backgroundimg{
+	padding-top: 12em;
+	padding-left: 15em;
+	}
+	.Home > h1{
+	padding-left: 8em;
+	}
+	#caca{
+	font-size: 130%;
+	padding-top: 30em;
+	}
+}
