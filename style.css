@@ -199,9 +199,8 @@ h2{
 
 #testimg{
     position: relative;
-    padding-bottom: 56.25%; /* ratio 16/9 */
     margin-top: 30em;
-    margin-bottom: -48em;
+    margin-bottom: 2em;
     margin-left: 15.5em;
 	overflow: hidden;
     clear: both;
@@ -237,8 +236,8 @@ h2{
 	padding-right:2em;
 	margin-left: 14.5em;
 	margin-right: 14.8em;
-	margin-top: 2em;
-	padding-bottom: 1em;
+	margin-top: 0em;
+	padding-bottom: 2em;
 	background-color: white;
 	border-radius: 0.3em;
 
@@ -313,7 +312,7 @@ input[type=button]:hover{
  
  	#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8{
  	padding-top: 1em;
- 	margin-top: 20em;
+ 	margin-bottom: 20em;
  	}
 
  	li{
