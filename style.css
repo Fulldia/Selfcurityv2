@@ -27,9 +27,9 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
-      display: block;
-      transition: top 0.8s;
-      z-index: 1000;
+    display: block;
+    transition: top 0.8s;
+    z-index: 1000;
 }
 
 #navbar > a {
@@ -59,6 +59,7 @@ ul{
 }
 body{
 	background-color: white;
+	margin-right: 0em;
 }
 
 
@@ -68,7 +69,6 @@ body{
 	padding-top: 6em;
 	width: 55%;
 	z-index: 1;
-
 }
 
 
@@ -98,9 +98,12 @@ h1{
 
 .Jeu{
 	background-color: #f3f3f3;
-	height: 595em;
+	height: 749em;
 	font-size: 1.1em;
 	font-family: 'Sitka';
+	margin-right: 1em;
+	    width: 100%;
+	
 }
 
 
@@ -112,8 +115,9 @@ h2{
 	color: #cccccc;
 }
 .Jeu > h2{
-	padding-top: 0em;
-	
+	padding-top: 1em;
+
+
 }
 
 
@@ -173,13 +177,14 @@ h2{
 	height:10em;
 	margin-left: 28em;
 	padding-top: 20em;
-	max-width: 100%;
+
 }
 
 #quote3 > p{
 	color: #6D4F08;
 	text-align: center;
 	margin-top: 2em;
+	padding-right: 0em;
 
 
 }
@@ -188,19 +193,37 @@ h2{
 	width: 15%;
 }
 
+
+
+
 #testimg{
-	padding-left: 14.5em;
-	padding-top: 10em;
-	border-color: transparent;
+    position: relative;
+    padding-bottom: 56.25%; /* ratio 16/9 */
+    margin-top: 30em;
+    margin-bottom: -48em;
+    margin-left: 15.5em;
+	overflow: hidden;
+    clear: both;
 }
+@media (max-width: 1024px){
+	#testimg{
+	margin-left: 1em;
+}
+ 
+ 	#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8{
+ 	padding-top: 20em;
+ 	margin-top: 20em;
+ 	}
+}
+
 
 .partenaires{
 	height: 62em;
 }
 
 .partenaires > p{
-	padding-left: 7em;
-	padding-right: 7em;
+	padding-left:5em;
+	padding-right: 5em;
 	text-align: center;
 	font-size: 1.1em;
 	font-family: "Sitka";
@@ -223,7 +246,7 @@ h2{
 	margin-left: 14.5em;
 	margin-right: 14.8em;
 	margin-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 	background-color: white;
 	border-radius: 0.3em;
 
