@@ -67,7 +67,7 @@ for (i = 0; i < reps.length; i++) {
 
 var opened = window.open("");
 for (i=0; i<question.length; i++){
-opened.document.write("<html><head><title>MyTitle</title><link rel='stylesheet' type='text/css' href='style2.css'></head><body><div class='conteneur'><div id='cont1'><img src="+ imgquest[i] +" id='i' alt='quest'/></div><div id='cont2'><img src="+images[i]+" alt='cc' /></div></div><div id='re'>Votre réponse : "+reps[i].value+"</div><br><br><div id='bonre'>La bonne réponse : "+ bonRep[i]+"</div><br><br><div id='pb'>"+probleme[i]+"</div><br><br>"+astuce[i]+"<br><br><br><br><br><br><br><br></body></html>");}
+opened.document.write("<html><head><title>MyTitle</title><link rel='stylesheet' type='text/css' href='style2.css'></head><body><div class='body2'><div class='conteneur'><div id='cont1'><img src="+ imgquest[i] +" id='i' alt='quest'/></div><div id='cont2'><img src="+images[i]+" alt='cc' /></div></div><div id='re'>Votre réponse : "+reps[i].value+"</div><div id='bonre'>La bonne réponse : "+ bonRep[i]+"</div><br><br><div id='pb'>"+probleme[i]+"</div><br><br>"+astuce[i]+"<br><br><br><br><br><br><br><br></div></body></html>");}
 
 //     alert(document.getElementById('rep').style.left=probleme[0]+"bonjour");
 }
