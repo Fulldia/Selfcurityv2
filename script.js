@@ -36,7 +36,7 @@ for (i = 0; i < reps.length; i++) {
     }
    
 }
- alert('Nombre de bonnes réponses :' + res);
+ alert('Vous avez ' + res + ' bonne(s) réponse(s) sur 8 !');
 
 /*getElementBy('reponse'+numQuestion).value == bonRep[numQuestion-1]){
       res='vrai';
