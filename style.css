@@ -99,7 +99,7 @@ h1{
 
 .Jeu{
 	background-color: #f3f3f3;
-	height: 749em;
+	height: auto;
 	font-size: 1.1em;
 	font-family: 'Sitka';
 	margin-right: 1em;
@@ -178,6 +178,7 @@ h2{
 	height:10em;
 	margin-left: 28em;
 	padding-top: 20em;
+	max-width: 100%;
 
 }
 
@@ -304,6 +305,7 @@ input[type=text] {
 }
 
 
+
 .nous{
 
 	margin-left: 4em;
@@ -324,12 +326,14 @@ input[type=text] {
 
 @media (max-width: 1024px){
 	#testimg{
-	margin-left: 1em;
+	margin-left: 0em;
 }
  
  	#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8{
  	padding-top: 1em;
  	margin-bottom: 20em;
+	margin-left: auto;
+	margin-right: auto;
  	}
 
  	li{
@@ -351,4 +355,28 @@ input[type=text] {
 	font-size: 130%;
 	padding-top: 30em;
 	}
+	#quote2{
+	margin-top: 3em;
+	margin-right: 5em;
+	}
+	#quote3{
+	margin-left: 5em;
+	margin-top: 20em;
+	}
+	input[type=text]{
+		font-size: 1.4em;
+		height: 3em;
+		width: 10em;
+		margin-left: 12em;
+	}
+		#button1{
+		margin-left: 11em;
+		
+	}
+	#button2{
+		margin-left: 11em;
+		margin-top: 1em;
+		margin-bottom: 5em;
+	}
+
 }
