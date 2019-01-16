@@ -61,6 +61,7 @@ ul{
 body{
 	background-color: white;
 	margin-right: 0em;
+	font-size: auto;
 }
 
 
@@ -178,7 +179,7 @@ h2{
 	height:10em;
 	margin-left: 28em;
 	padding-top: 20em;
-	max-width: 100%;
+	
 
 }
 
@@ -248,6 +249,8 @@ h2{
 	font-size: 1.3em;
 	text-align: center;
 }
+
+
 
 input[type=text] {
  background-color:white;
@@ -356,12 +359,12 @@ input[type=text] {
 	padding-top: 30em;
 	}
 	#quote2{
-	margin-top: 3em;
+	margin-top: 7em;
 	margin-right: 5em;
 	}
 	#quote3{
 	margin-left: 5em;
-	margin-top: 20em;
+	margin-top: 30em;
 	}
 	input[type=text]{
 		font-size: 1.4em;
@@ -378,5 +381,8 @@ input[type=text] {
 		margin-top: 1em;
 		margin-bottom: 5em;
 	}
+	p{
+	font-size: 1.5em;
+}
 
 }
