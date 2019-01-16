@@ -18,6 +18,9 @@
     "Astuce : Il est absolument nécessaire de vérifier la <strong>présence du cadenas</strong> indiquant que le site possède un <strong>certificat SSL</strong> et donc que les données échangées sont chiffrées lorsqu'il s’agit d’informations privées pouvant être récupérées par des personnes mal intentionnées ( exemple : informations personnelles Nom, prénom, date de naissance, mots de passe, etc…) Ces informations sont de l’or aux yeux de pirates qu’ils revendront à très bon prix sur les plateformes du Darknet. Le certificat SSL est la norme sur les sites à fort trafic même ceux avec lesquels nous n’échangeons aucune donnée sensible.",
     "Astuce : Enregistrer ses mots de passe dans son navigateurs est peut être pratique mais ce n'est pas très prudent. Premièrement si une personne physique accède à votre ordinateur, il n'aura <strong>aucune barrière</strong> pour se connecter à vos comptes. De plus, un <strong>malware</strong> (logiciel malveillant) malencontreusement installé peut récupérer ces données."]
 
+    var images = ["img1.png", "img2.png", "img3.png", "img4.png", "img5.png", "img6.png", "img7.png", "img8.png"];
+    var imgquest = ["img11.png" , "img22.png" , "img33.png" , "img44.png" , "img55.png", "img66.png", "img77.png", "img88.png"];
+
     function Rep(){
 
 /*      // créer et ajouter un bouton à la page
@@ -37,6 +40,7 @@ for (i = 0; i < reps.length; i++) {
    
 }
  alert('Vous avez ' + res + ' bonne(s) réponse(s) sur 8 !');
+
 
 /*getElementBy('reponse'+numQuestion).value == bonRep[numQuestion-1]){
       res='vrai';
@@ -63,7 +67,7 @@ for (i = 0; i < reps.length; i++) {
 
 var opened = window.open("");
 for (i=0; i<question.length; i++){
-opened.document.write("<html><head><title>MyTitle</title><link rel='stylesheet' type='text/css' href='style2.css'></head><body><h3>"+question[i]+"</h3><div id='re'>Votre réponse : "+reps[i].value+"</div><br><br><div id='bonre'>La bonne réponse : "+ bonRep[i]+"</div><br><br><div id='pb'>"+probleme[i]+"</div><br><br>"+astuce[i]+"<br><br></body></html>");}
+opened.document.write("<html><head><title>MyTitle</title><link rel='stylesheet' type='text/css' href='style2.css'></head><body><div class='conteneur'><div id='cont1'><img src="+ imgquest[i] +" id='i' alt='quest'/></div><div id='cont2'><img src="+images[i]+" alt='cc' /></div></div><div id='re'>Votre réponse : "+reps[i].value+"</div><br><br><div id='bonre'>La bonne réponse : "+ bonRep[i]+"</div><br><br><div id='pb'>"+probleme[i]+"</div><br><br>"+astuce[i]+"<br><br><br><br><br><br><br><br></body></html>");}
 
 //     alert(document.getElementById('rep').style.left=probleme[0]+"bonjour");
 }
