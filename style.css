@@ -46,7 +46,7 @@ ul{
 #logo{
 	position: absolute;
 	padding-left: 0.5em;
-	padding-right:20em;
+
 	max-width: 4.5%;
 }
 
@@ -110,17 +110,17 @@ h1{
 
 
 h2{
-	padding-top: 3em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 	padding-left: 1em;
 	font-size: 5em;
 	font-family: "Audiowide";
 	color: #cccccc;
 }
-.Jeu > h2{
-	padding-top: 1em;
 
 
-}
+
+
 
 
 #quote1{
@@ -211,7 +211,7 @@ h2{
 
 
 .partenaires{
-	height: 62em;
+	height: auto;
 }
 
 .partenaires > p{
@@ -258,12 +258,13 @@ input[type=text] {
  border-color: #e6e6e6;
  border-radius: 0.2em;
  width: 10em;
- margin-top: 5em;
+ margin-top: 1em;
  }
 
 #button1 {
 	
 	margin-top: 4em;
+	margin-bottom: 2em;
 	margin-left: 14.5em;
 	width: 6em;
 	height: 3em;
@@ -295,13 +296,10 @@ input[type=text] {
 }
 
 .apropos{
-	height: 100em;
+	height: 120em;
 	background-color: #F3F3F3;
 }
 
-.apropos > h2{
-	padding-top: 1.2em;
-}
 .apropos >p{
 	margin-left: 5em;
 	margin-right: 5em;
@@ -346,11 +344,20 @@ input[type=text] {
 	font-size: 1.3em;
 	text-align: center;
 }
+.aide > p{
+
+	font-size: 1.4em;
+	padding-left: 4em;
+
+    font-family: 'Sitka';
+	color: black;
+}
 
 label,
 textarea {
    
     font-family: 'Sitka';
+    max-width: 100%;
 }
 textarea {
     padding: 10px;
@@ -358,6 +365,7 @@ textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
+    max-width: 100%;
 }
 
 label {
@@ -365,6 +373,9 @@ label {
     margin-bottom: 10px;
 }
 
+.contact{
+	height: auto;
+}
 
 #mess{
 	margin-left: 200em;
@@ -381,6 +392,33 @@ label {
 	background-color:#ba922c;
 	color: white;
 }
+
+.aide{
+		height: 50em;
+	background-color: #F3F3F3;
+	padding-right: 5em;
+}
+
+footer{
+	background-color: #405589;
+	padding-top: 4em;
+	padding-bottom: 4em;
+
+}
+#foot{
+	margin-left:6.8em;
+	font-size: 1.2em; 
+	font-family: 'Sitka';
+
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1024px){
 	#testimg{
 	margin-left: 0em;
@@ -424,7 +462,7 @@ label {
 		font-size: 1.4em;
 		height: 3em;
 		width: 10em;
-		margin-left: 12em;
+	
 	}
 		#button1{
 		margin-left: 11em;
@@ -438,5 +476,36 @@ label {
 	p{
 	font-size: 1.5em;
 }
+	#formulaire{
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	font-family: 'Sitka';
+	background-color: #F3F3F3;
+	    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: 1.5em;
+}
+	label,
+textarea {
+   
+    font-family: 'Sitka';
+}
+textarea {
+    padding: 1px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 }
