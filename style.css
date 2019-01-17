@@ -218,7 +218,7 @@ h2{
 	padding-left:5em;
 	padding-right: 5em;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	font-family: "Sitka";
 
 }
@@ -305,6 +305,8 @@ input[type=text] {
 .apropos >p{
 	margin-left: 5em;
 	margin-right: 5em;
+	font-size: 1.3em;
+	font-family: 'Sitka';
 }
 
 
@@ -327,6 +329,58 @@ input[type=text] {
 	font-family: 'Encode Sans Condensed', sans-serif;
 }
 
+#formulaire{
+	margin-left: 35em;
+	margin-right: 36em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	font-family: 'Sitka';
+	background-color: #F3F3F3;
+	    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+#formulaire > p{
+
+	font-size: 1.3em;
+	text-align: center;
+}
+
+label,
+textarea {
+   
+    font-family: 'Sitka';
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+#mess{
+	margin-left: 200em;
+}
+
+#button3{
+	margin-left: 8em;
+	margin-top: 2em;
+	width: 5em;
+	height: 1.8em;
+	font-size: 1.5em;
+	border-color: #ba922c;
+	border-radius: 0.5em;
+	background-color:#ba922c;
+	color: white;
+}
 @media (max-width: 1024px){
 	#testimg{
 	margin-left: 0em;
