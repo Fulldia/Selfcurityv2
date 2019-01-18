@@ -55,8 +55,12 @@ ul{
 }
 
 .Home{
-	height: 60em;
+	height: 98em;
 	position: relative;
+}
+.Home > #testimg{
+	padding-top: 30em;
+	padding-left: 2em;
 }
 body{
 	background-color: white;
