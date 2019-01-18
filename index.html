@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.102/jquery.min.js"></script>
 
 
 
@@ -20,12 +20,12 @@
 		<img src="images\logo.png" alt="logo" id="logo"/>
 		
 		<ul>
- 		 <li><a href="#home">SELFCURITY</a></li>
- 		 <li><a href="#ancrejeu">Jeu</a></li>
- 		 <li><a href="#ancrepart">Partenaires</a></li>
-  		 <li><a href="#ancreapro">A propos</a></li>
-  		 <li><a href="#ancrecont">Contact</a></li>
-  		 <li><a href="#ancreaide">Aide</a></li>
+ 		 <li class="list"><a href="#home">SELFCURITY</a></li>
+ 		 <li class="list1"><a href="#ancrejeu">Jeu</a></li>
+ 		 <li class="list"><a href="#ancrepart">Partenaires</a></li>
+  		 <li class="list1"><a href="#ancreapro">A propos</a></li>
+  		 <li class="list"><a href="#ancrecont">Contact</a></li>
+  		 <li class="list1"><a href="#ancreaide">Aide</a></li>
 		</ul>
 	</div>
 	<div class="Home">
@@ -256,6 +256,9 @@
 	</footer>
 	<script type="text/javascript">
 
+	$(function(){
+		if ($(window).width()>800)
+				
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
 
@@ -269,8 +272,13 @@
       prevScrollpos = currentScrollpos;
 
       }
+  
+  	else {
+  	echo "salut";
+  };
 
-      </script>
+
+    </script>
 
 
 </body>

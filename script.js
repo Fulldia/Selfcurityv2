@@ -23,12 +23,7 @@
 
     function Rep(){
 
-/*      // créer et ajouter un bouton à la page
-      var btn = document.createElement("BUTTON");
-      btn.value = "fghjkl";
-      document.body.appendChild(btn);
 
-*/
 
     var res = 0;
     var reps = document.querySelectorAll('input[type="text"]');
